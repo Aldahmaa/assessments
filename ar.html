@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
 	<meta charset="UTF-8">
-	<title>Assessment submission</title>
+	<title>تسليم المهام</title>
 	<link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
 	<link rel="stylesheet" href="style.css">
 </head>
@@ -12,55 +12,55 @@
 
 		<form autocomplete=off action="https://sheetdb.io/api/v1/uuqp0jli9dy7v" method="POST" id="sheetdb-form">
 
-			<h2>AlDahmma</h2>
-			<h3>Assessment submission</h3>
+			<h2>مدرسة الدهماء</h2>
+			<h3>تسليم المهام</h3>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Full Name" name="data[Name]" required>
+				<input type="text" placeholder="الاسم الكامل" name="data[Name]" required>
 				<i></i>
 			</div>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Student ID" name="data[ID]" required>
+				<input type="text" placeholder="رقم الطالب" name="data[ID]" required>
 				<i></i>
 			</div>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Grade(9,10,11,12)" name="data[Grade]" required>
+				<input type="text" placeholder="الصف (9,10,11,12)" name="data[Grade]" required>
 				<i></i>
 			</div>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Stream(Elite,Advanced,General)"name="data[Stream]" required>
+				<input type="text" placeholder="(Elite,Advanced,General) المسار"name="data[Stream]" required>
 				<i></i>
 			</div>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Section" name="data[Section]" required>
+				<input type="text" placeholder="الشعبة" name="data[Section]" required>
 				<i></i>
 			</div>
 
 			<div class="inputBox">
 
-				<input type="text" placeholder="Assessment Link" name="data[Link]" required>
+				<input type="text" placeholder="الرابط" name="data[Link]" required>
 				<i></i>
 			</div>
 
 			<div class="links">
 
-				<a href="ar.html">اللغة: اللغة العربية</a>
+				<a href="index.html">Language: English</a>
 				<a href="mailto:Moammer.Abdoh@ese.gov.ae">
-					Ask for Help
+					طلب المساعدة
 				</a>
 
 			</div>
 
-			<input type="submit" value="Submit">
+			<input type="Submit" value="تسليم">
 
 		</form>
 
@@ -75,7 +75,7 @@
               response => response.json()
           ).then((html) => {
             // you can put any JS code here
-            window.open('done.html', '_blank');
+            window.open('ar.done.html', '_blank');
 
           });
         });
